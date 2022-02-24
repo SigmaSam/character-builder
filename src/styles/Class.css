@@ -1,0 +1,10 @@
+.container {
+    min-width: 8rem;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+    justify-self: center;
+}
+.icon {
+    size: 5rem
+}
