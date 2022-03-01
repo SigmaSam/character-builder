@@ -9,15 +9,12 @@ function App() {
     <div className="App">
       <header>
        <h1>Character Builder</h1> 
+       
        <div className='class--container'>
          {classes.map(element => {
          return (
           <Class
-            key={element.id}
-            logo={element.logo}
-            name={element.name}
-            description={element.description}
-            role={element.role}
+            {...element}
           />
          )})}
        </div>

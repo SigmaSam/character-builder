@@ -1,10 +1,17 @@
 .container {
-    min-width: 8rem;
-    padding: 5px;
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    align-items: center;
+    text-align: center;
     border: 2px solid;
-    border-radius: 20px;
-    justify-self: center;
+    border-radius: 5px;
+    margin: 0.3rem;
+    padding: 0.2rem;
 }
 .icon {
-    size: 5rem
+    width: 100%;
+    margin: 1rem;
 }

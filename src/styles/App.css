@@ -1,11 +1,12 @@
 .App {
-  display: grid;
-  grid-template-columns: 5rem ;
-  grid-template-rows: 12px 12px 12px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 
 .class--container {
   display: flex;
+  flex-wrap: wrap;
   
 }
